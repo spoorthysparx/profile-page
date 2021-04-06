@@ -1,0 +1,72 @@
+body{
+    background-image: url("https://fsa.zobj.net/crop.php?r=u57QZwRHGjJ1UN60UXFhDTdhZhUcS-gj2aeJR9mXrL3eH--PN5CnTyMiGP6G0QKoCicMCysTgW1pprvpMYr3Tk7uhcxzehGRxQR3Eor62L9T8KfEjI4S6_HHHJTToSVjdmj2onkIWsardxMk");
+}
+.image-cropper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: auto; 
+  height: auto;
+  width: auto;
+}
+#stop{
+    background-color: lightsteelblue;
+    text-align: end;
+    font-size: Xx-large;
+}
+#run{
+    background-color: lightyellow;
+    text-align: start;
+    font-size: xx-large;
+}
+#step{
+    background-color: lightgrey;
+    height: 120mm;
+    font-size: xx-large;
+    color: black;
+}
+#ride{
+    background-color:lightsteelblue;
+    color: black;
+    height: 120mm;
+    text-align: center;
+    font-style: italic;
+    font-size: x-large;
+}
+.step4 {
+    width: 80mm;
+    height: 7cm;
+    
+    margin-top: 20px;
+    background-color: lightslategray;
+    
+    transform: rotate(67.5deg) skewX(45deg) scaleY( cos(45deg));
+  }
+.circle{
+    height: 50mm;
+    width: 50mm;
+    border-radius: 70%;
+    background-color: seashell;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 23%;
+    margin-left: 21%;
+}
+#get{
+    text-align: center;
+    color: black;
+    font-size: x-large;
+    font-style: italic;
+}
+#set{
+    color: black;
+    font-size: x-large;
+    font-style: italic;
+    padding-bottom: 22px;
+}
